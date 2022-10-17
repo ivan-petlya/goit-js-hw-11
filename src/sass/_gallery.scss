@@ -1,0 +1,72 @@
+.search-form {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(86, 114, 228);
+}
+.search-form input {
+  position: relative;
+  width: 360px;
+  border: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-form button {
+  width: 40px;
+  height: 36px;
+  border: none;
+  background-image: url('/src/images/search-svgrepo-com.svg');
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-position: 50%;
+}
+
+.gallery {
+  margin-top: 40px;
+  padding: 20px;
+  display: flex;
+  gap: 22px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  display: block;
+  width: 420px;
+  height: 270px;
+  object-fit: cover;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.load-more-btn {
+  margin: 30 auto;
+  display: block;
+  text-transform: uppercase;
+  background-color: #4a61bd;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.is-hidden {
+  display: none;
+}
